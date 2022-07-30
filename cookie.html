@@ -1,0 +1,107 @@
+<body>
+    <button id="co">cookie</button>
+    <button id="a">cursur</button>
+    <button id="b">grandma</button>
+    <button id="c">farm</button>
+    <button id="d">factory</button>
+    <button id="e">witch</button>
+    
+
+    
+
+    <p id="numb">0</p>
+    <p id="ap">0</p>
+    <p id="bp">0</p>
+    <p id="cp">0</p>
+    <p id="dp">0</p>
+    <p id="ep">0</p>
+    <p id="los"></p>
+    <p id="go"></p>
+
+
+    
+
+
+    <script>
+        var y=0
+
+
+        document.getElementById("co").addEventListener('click',cookie);
+        var x = 0
+        var w=1
+        var y=0
+        var h = 0
+        function cookie(){
+            document.getElementById("numb").innerHTML = h;
+            w++
+            h=y*w+x
+            x++ 
+            var m=h+x
+            
+
+        }
+        
+
+
+        document.getElementById("a").addEventListener('click',a1);
+        var q = 0
+        var y=0
+        function a1(){
+            document.getElementById("ap").innerHTML = q;
+            y++
+            q++
+            
+                
+            
+        }
+
+
+        document.getElementById("b").addEventListener('click',a2);
+        var f = 0
+        var y=0
+        function a2(){
+            document.getElementById("bp").innerHTML = f;
+            y=y+2
+            f++
+            h=h-10
+            
+        }
+
+
+        document.getElementById("c").addEventListener('click',a3);
+        var c = 0
+        var y=0
+        function a3(){
+            document.getElementById("cp").innerHTML = c;
+            y=y+3
+            c++
+            h=h-30
+            
+        }
+
+
+        document.getElementById("d").addEventListener('click',a4);
+        var k = 0
+        var y=0
+        function a4(){
+            document.getElementById("dp").innerHTML = k;
+            k++
+            y=y+4
+            h=h-60
+            }
+
+
+        document.getElementById("e").addEventListener('click',a5);
+        var l = 0
+        var y=0
+        function a5(){
+            document.getElementById("ep").innerHTML = l;
+            l++
+            y=y+5
+            h=h-100
+        }
+        
+        
+        
+    </script>
+</body>
